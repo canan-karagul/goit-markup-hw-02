@@ -1,0 +1,179 @@
+.header{
+  background-color: #e7e9fc;
+}
+
+/* header kutucuk bitiş */
+/*header-navigation başlangıç*/
+
+.navigation .link {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+
+.navigation .link:hover {
+  color: #404bbf;
+}
+/*header-navigation bitiş*/
+
+/*header contacts başlangıç*/
+.header .contacts .link {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: #434455;
+}
+.navigation .link:hover {
+  color: #404bbf;
+}
+/*header-contacts bitiş*/
+
+/*post sınıfı başlangıç*/
+.post {
+  background-color: #2e2f42;
+  width: 1440px;
+  top: 72px;
+}
+.post .title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 2.1;
+  letter-spacing: 2%;
+  text-align: center;
+  text-transform: none;
+  width: 496;
+  top: 260px;
+  left: 472px;
+}
+.post-link {
+  width: 169px;
+  top: 428px;
+  left: 636px;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 3.5;
+  letter-spacing: 4%;
+  color: #ffffff;
+  text-align: center;
+  position:inside ;
+  cursor: pointer;
+}
+
+.post-link:hover,
+.post-link:focus {
+  background-color: #404bbf;
+  border-radius: 4px;
+  text-decoration: underline;
+}
+/*post sınıfı bitiş*/
+
+/*main sınıfı bailangıç*/
+.main {
+  width: 1128px;
+  top: 792px;
+  left: 156px;
+}
+.main .title {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+}
+.main .text {
+  color: rgba(67, 68, 85, 1);
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 4.5;
+  letter-spacing: 2%;
+}
+/*main sınıfı bitiş*/
+
+/*team section sınıfı başlangıç*/
+
+.team-section {
+  background-color: rgba(244, 244, 253, 1);
+  width: 1440px;
+  top: 1016px;
+}
+.team .title {
+  color: rgba(46, 47, 66, 1);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 2%;
+  text-align: center;
+  position: inherit;
+}
+.team .text {
+  color: rgba(67, 68, 85, 1);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  text-align: center;
+  position: inherit;
+}
+.team .photo {
+  width: 264px;
+  position: inherit;
+}
+/*team section sınıfı bitiş*/
+
+/*portfolio-section sınıfı başlangıç*/
+.portfolio-section {
+  background-color: rgba(231, 233, 252, 1);
+  width: 1128px;
+  top: 1868px;
+  left: 156px;
+  border: 1px;
+}
+
+.portfolio-section .portfolio {
+  color: rgba(46, 47, 66, 1);
+  width: 218px;
+  top: 1868px;
+  left: 611px;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 2%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.portfolio-section .title {
+  color: rgba(46, 47, 66, 1);
+  width: 84px;
+  text-align: left;
+}
+.portfolio-section .text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 2%;
+  color: rgba(67, 68, 85, 1);
+  text-align: left;
+}
+.portfolio-section .photo {
+  width: 360px;
+
+}
+/*portfolio-section sınıfı bitiş*/
+/*footer  sınıfı başlangıç*/
+.footer {background-color: rgba(46, 47, 66, 1);
+width: 1440px;
+height: 312px;
+top: 2988px;}
+/*footer sınıfı bitiş*/
+/*case sınıfı başlangıç*/
+.case {font-family:"Roboto", "Helvetica",
+		"Arial",sans-serif;}
+
+
