@@ -1,9 +1,27 @@
-.header{
-  background-color: #e7e9fc;
+.header {
+  background-color: rgba(255, 255, 255, 1);
 }
 
 /* header kutucuk bitiş */
 /*header-navigation başlangıç*/
+.logo-accent {
+  font-family: " Raleway" sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  color: rgba(46, 47, 66, 1);
+}
+.logo {
+  font-family: "Raleway" sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 3%;
+  text-transform: uppercase;
+  color: rgba(77, 90, 229, 1);
+}
 
 .navigation .link {
   color: #2e2f42;
@@ -26,9 +44,7 @@
   letter-spacing: 2%;
   color: #434455;
 }
-.navigation .link:hover {
-  color: #404bbf;
-}
+
 /*header-contacts bitiş*/
 
 /*post sınıfı başlangıç*/
@@ -51,25 +67,30 @@
 }
 .post-link {
   width: 169px;
-  top: 428px;
-  left: 636px;
+  border-top: 428px;
+  border-left: 636px;
   border-radius: 4px;
   background-color: #4d5ae5;
   font-weight: 500px;
   font-size: 16px;
-  line-height: 3.5;
+  line-height: 1.5;
   letter-spacing: 4%;
   color: #ffffff;
   text-align: center;
-  position:inside ;
+  position: inside;
   cursor: pointer;
+  margin: 0 auto;
+  padding-top: 16px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  
 }
 
 .post-link:hover,
 .post-link:focus {
   background-color: #404bbf;
   border-radius: 4px;
-  text-decoration: underline;
 }
 /*post sınıfı bitiş*/
 
@@ -102,6 +123,18 @@
   width: 1440px;
   top: 1016px;
 }
+.team-section .team {
+  font-size: 36px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2%;
+  line-height: 1.1;
+  color: rgba(46, 47, 66, 1);
+}
 .team .title {
   color: rgba(46, 47, 66, 1);
   font-weight: 500;
@@ -128,30 +161,31 @@
 
 /*portfolio-section sınıfı başlangıç*/
 .portfolio-section {
-  background-color: rgba(231, 233, 252, 1);
+  background-color: rgba(255, 255, 255, 1);
   width: 1128px;
   top: 1868px;
-  left: 156px;
-  border: 1px;
+  margin-left: 116px;
+
 }
 
 .portfolio-section .portfolio {
-  color: rgba(46, 47, 66, 1);
-  width: 218px;
-  top: 1868px;
-  left: 611px;
   font-size: 36px;
-  font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 2%;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   text-align: center;
   text-transform: uppercase;
+  letter-spacing: 2%;
+  line-height: 1.1;
+  color: rgba(46, 47, 66, 1);
 }
 
 .portfolio-section .title {
   color: rgba(46, 47, 66, 1);
   width: 84px;
   text-align: left;
+  position: inherit;
 }
 .portfolio-section .text {
   font-size: 16px;
@@ -160,20 +194,23 @@
   letter-spacing: 2%;
   color: rgba(67, 68, 85, 1);
   text-align: left;
+  position: inherit;
 }
 .portfolio-section .photo {
   width: 360px;
-
+  position: inherit;
 }
 /*portfolio-section sınıfı bitiş*/
 /*footer  sınıfı başlangıç*/
-.footer {background-color: rgba(46, 47, 66, 1);
-width: 1440px;
-height: 312px;
-top: 2988px;}
+.footer {
+  background-color: rgba(46, 47, 66, 1);
+  width: 1440px;
+  height: 312px;
+
+}
+
 /*footer sınıfı bitiş*/
 /*case sınıfı başlangıç*/
-.case {font-family:"Roboto", "Helvetica",
-		"Arial",sans-serif;}
-
-
+.case {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
