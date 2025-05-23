@@ -20,7 +20,7 @@
   line-height: 1.16;
   letter-spacing: 3%;
   text-transform: uppercase;
-  
+
   color: rgba(46, 47, 66, 1);
 }
 
@@ -63,8 +63,8 @@
   text-align: center;
   text-transform: none;
   width: 496;
-  top: 260px;
-  left: 472px;
+  margin-top: 260px;
+  margin-left: 472px;
 }
 .post-link {
   width: 169px;
@@ -80,11 +80,11 @@
   cursor: pointer;
   margin-left: 636px;
   margin-top: 428px;
+  margin-bottom: 428px;
   padding-top: 16px;
   padding-right: 32px;
   padding-bottom: 16px;
   padding-left: 32px;
-  
 }
 
 .post-link:hover,
@@ -165,7 +165,6 @@
   width: 1128px;
   top: 1868px;
   margin-left: 116px;
-
 }
 
 .portfolio-section .portfolio {
@@ -206,7 +205,6 @@
   background-color: rgba(46, 47, 66, 1);
   width: 1440px;
   height: 312px;
-
 }
 
 /*footer sınıfı bitiş*/
