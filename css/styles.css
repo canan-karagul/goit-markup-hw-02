@@ -52,7 +52,9 @@
 .post {
   background-color: #2e2f42;
   width: 1440px;
-  top: 72px;
+  margin-top: 72px;
+  height: 600px;
+  display: block;
 }
 .post .title {
   color: #ffffff;
@@ -63,6 +65,7 @@
   text-align: center;
   text-transform: none;
   width: 496;
+  height: 120px;
   margin-top: 260px;
   margin-left: 472px;
 }
