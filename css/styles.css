@@ -1,3 +1,12 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Kodun geri kalanı */
+
+
 .header {
   background-color: rgba(255, 255, 255, 1);
 }
@@ -52,10 +61,8 @@
 .post {
   background-color: #2e2f42;
   width: 1440px;
-  margin:0 auto;
+  margin: 0 auto;
   display: block;
-  margin-top: 72px;
-
 }
 .post .title {
   color: #ffffff;
@@ -64,10 +71,11 @@
   line-height: 2.1;
   letter-spacing: 2%;
   text-align: center;
-  text-transform: none;
+  text-transform: capitalize;
   width: 496;
-  font-display: block;
-  contain: content;
+  height: 120px;
+  top:260 px;
+  left: 472px;
 }
 .post-link {
   width: 169px;
