@@ -68,8 +68,6 @@
 }
 .post-link {
   width: 169px;
-  border-top: 428px;
-  border-left: 636px;
   border-radius: 4px;
   background-color: #4d5ae5;
   font-weight: 500px;
@@ -80,8 +78,8 @@
   text-align: center;
   position: inside;
   cursor: pointer;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-left: 636px;
+  margin-top: 428px;
   padding-top: 16px;
   padding-right: 32px;
   padding-bottom: 16px;
