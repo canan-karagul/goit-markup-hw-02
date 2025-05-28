@@ -6,7 +6,6 @@
 
 /* Kodun geri kalanı */
 
-
 .header {
   background-color: rgba(255, 255, 255, 1);
 }
@@ -14,7 +13,7 @@
 /* header kutucuk bitiş */
 /*header-navigation başlangıç*/
 .logo-accent {
-  font-family: " Raleway" ,sans-serif;
+  font-family: " Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
@@ -23,7 +22,7 @@
   color: rgba(77, 90, 229, 1);
 }
 .logo {
-  font-family: "Raleway" ,sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
@@ -54,7 +53,9 @@
   letter-spacing: 2%;
   color: #434455;
 }
-.contacts .link:hover{ color:#404BBF;}
+.contacts .link:hover {
+  color: #404bbf;
+}
 /*header-contacts bitiş*/
 
 /*post sınıfı başlangıç*/
@@ -73,7 +74,7 @@
   text-transform: capitalize;
   width: 496;
   height: 120px;
-  top:260 px;
+  top: 260 px;
   left: 472px;
 }
 .post-link {
@@ -211,21 +212,28 @@
 /*portfolio-section sınıfı bitiş*/
 /*footer  sınıfı başlangıç*/
 .footer {
-  background-color: #2E2F42;
+  background-color: #2e2f42;
   width: 1440px;
   height: 312px;
 }
-.footer .logo {color: #F4F4FD;
-  font-family: "Raleway" ,sans-serif; 
+.footer .logo {
+  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
   font-size: 18;
   line-height: 1.16;
   letter-spacing: 3%;
 }
-.footer .logo-accent{color:#4D5AE5;
-font-size: 18px;
-font-family: "Raleway", sans-serif;
-line-height: 1.16;
-letter-spacing: 3%;}
+.footer .logo-accent {
+  color: #4d5ae5;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.16;
+  letter-spacing: 3%;
+}
+.footer .text {
+  color: #e7e9fc;
+  text-align: left;
+}
 
 /*footer sınıfı bitiş*/
 /*case sınıfı başlangıç*/
