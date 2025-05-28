@@ -76,8 +76,8 @@
   text-transform: capitalize;
   width: 496;
   height: 120px;
-  margin-top: 260 px;
-  margin-left: 472px;
+  top: 260 px;
+  left: 472px;
 
 }
 .post-link {
@@ -91,14 +91,15 @@
   color: #ffffff;
   text-align: center;
   cursor: pointer;
-  margin-left: 636px;
-  margin-top: 428px;
-  margin-bottom: 428px;
+  left: 636px;
+  top: 428px;
   padding-top: 16px;
   padding-right: 32px;
   padding-bottom: 16px;
   padding-left: 32px;
-  position:absolute;
+  gap: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .post-link:hover,
