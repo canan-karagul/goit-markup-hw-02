@@ -61,8 +61,7 @@
 .post {
   background-color: #2e2f42;
   width: 1440px;
-  margin: 0 auto;
-  display: block;
+  height: 600px;
 }
 .post .title {
   color: #ffffff;
@@ -87,7 +86,6 @@
   letter-spacing: 4%;
   color: #ffffff;
   text-align: center;
-  position: inside;
   cursor: pointer;
   margin-left: 636px;
   margin-top: 428px;
