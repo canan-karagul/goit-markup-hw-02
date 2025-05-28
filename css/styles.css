@@ -63,6 +63,8 @@
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
+  position: relative;
+  
 }
 .post .title {
   color: #ffffff;
@@ -74,8 +76,9 @@
   text-transform: capitalize;
   width: 496;
   height: 120px;
-  top: 260 px;
-  left: 472px;
+  margin-top: 260 px;
+  margin-left: 472px;
+
 }
 .post-link {
   width: 169px;
@@ -95,6 +98,7 @@
   padding-right: 32px;
   padding-bottom: 16px;
   padding-left: 32px;
+  position:absolute;
 }
 
 .post-link:hover,
