@@ -222,10 +222,10 @@ body {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
+  font-family: "Raleway", sans-serif;
 }
 .footer .logo {
   color: #f4f4fd;
-  font-family: "Raleway", sans-serif;
   font-size: 18;
   line-height: 1.16;
   letter-spacing: 3%;
@@ -233,13 +233,17 @@ body {
 .footer .logo-accent {
   color: #4d5ae5;
   font-size: 18px;
-  font-family: "Raleway", sans-serif;
   line-height: 1.16;
   letter-spacing: 3%;
 }
 .footer .text {
   color: #e7e9fc;
   text-align: left;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 1.5;
+  letter-spacing: 2%;
 }
 
 /*footer sınıfı bitiş*/
