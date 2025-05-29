@@ -6,6 +6,11 @@
 
 /* Kodun geri kalanı */
 
+/* basic başlangıç*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* basic bitiş*/
 .header {
   background-color: rgba(255, 255, 255, 1);
 }
@@ -132,13 +137,15 @@
   top: 1016px;
 }
 .team-section .team {
+  width: 162px;
+  height: 40px;
   font-size: 36px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   padding-top: 16px;
   padding-bottom: 16px;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 2%;
   line-height: 1.1;
   color: rgba(46, 47, 66, 1);
@@ -176,13 +183,15 @@
 }
 
 .portfolio-section .portfolio {
+  width: 218px;
+  height: 40px;
   font-size: 36px;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
   padding-top: 16px;
   padding-bottom: 16px;
   text-align: center;
-  text-transform: uppercase;
+  text-transform: capitalize;
   letter-spacing: 2%;
   line-height: 1.1;
   color: rgba(46, 47, 66, 1);
@@ -234,8 +243,3 @@
 }
 
 /*footer sınıfı bitiş*/
-/*case sınıfı başlangıç*/
-.case {
-  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-  color: #434455;
-}
