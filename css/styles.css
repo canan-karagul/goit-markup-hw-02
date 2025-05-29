@@ -66,9 +66,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction:column;
- 
-  
+  flex-direction: column;
 }
 .post .title {
   color: #ffffff;
@@ -77,13 +75,9 @@
   line-height: 2.1;
   letter-spacing: 2%;
   text-align: center;
+  align-self: auto;
   text-transform: capitalize;
   width: 496;
-  height: 120px;
-  top: 260 px;
-  left: 472px;
-  
-
 }
 .post-link {
   width: 169px;
@@ -96,12 +90,9 @@
   color: #ffffff;
   text-align: center;
   cursor: pointer;
-  margin:0 auto;
+  margin: 0 auto;
   padding: 16px 32px;
   gap: 10px;
-  position: absolute;
- 
-  
 }
 
 .post-link:hover,
