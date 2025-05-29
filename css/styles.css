@@ -145,6 +145,7 @@ body {
   padding-top: 16px;
   padding-bottom: 16px;
   text-align: center;
+  vertical-align: top;
   text-transform: capitalize;
   letter-spacing: 2%;
   line-height: 1.1;
@@ -191,6 +192,7 @@ body {
   padding-top: 16px;
   padding-bottom: 16px;
   text-align: center;
+  vertical-align: top;
   text-transform: capitalize;
   letter-spacing: 2%;
   line-height: 1.1;
