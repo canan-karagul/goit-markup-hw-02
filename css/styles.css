@@ -13,12 +13,12 @@ body {
 /* basic bitiş*/
 .header {
   background-color: rgba(255, 255, 255, 1);
+  font-family: "Raleway", sans-serif;
 }
 
 /* header kutucuk bitiş */
 /*header-navigation başlangıç*/
 .logo-accent {
-  font-family: " Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
@@ -27,7 +27,6 @@ body {
   color: rgba(77, 90, 229, 1);
 }
 .logo {
-  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.16;
@@ -144,7 +143,7 @@ body {
   padding-top: 16px;
   padding-bottom: 16px;
   text-align: center;
-  margin:0 auto;
+  margin: 0 auto;
   text-transform: capitalize;
   letter-spacing: 2%;
   line-height: 1.1;
@@ -190,7 +189,7 @@ body {
   padding-top: 16px;
   padding-bottom: 16px;
   text-align: center;
-  margin:0 auto;
+  margin: 0 auto;
   text-transform: capitalize;
   letter-spacing: 2%;
   line-height: 1.1;
